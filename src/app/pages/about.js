@@ -4,15 +4,20 @@ export default function About(){
     return(
         <div className="bg-black relative">
          <h1 className="text-8xl">About</h1>
-         <div className="flex">
+         <div className="flex justify-between">
             <div>
-
-
-
-
+             <p ><img className="w-60" src="/images/portrait.jpg"/></p>
+             <div>
+            <p> H</p>
+             
+                
+                
+                
+        
+         </div>     
             </div>
             <div>
-             <div class="grid grid-rows-4 grid-flow-col gap-4">
+             <div class="stack grid grid-rows-4 grid-flow-col gap-4">
                 <div>
                     <p><img src="/images/html.png"/></p>
                     <h2>HTML</h2>
@@ -53,7 +58,10 @@ export default function About(){
                 <p><img src="/images/expressjs_logo.png"/></p>
                     <h2>EXPRESS.JS</h2>
                 </div>
-                
+                <div>
+                <p><img src="/images/sql.png"/></p>
+                    <h2>SQL</h2>
+                </div>
 
              </div>
 

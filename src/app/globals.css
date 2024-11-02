@@ -22,4 +22,10 @@ body {
 img{
   width:80px;
 }
-
+.stack div{
+  border: 2px;
+  border-color: rgb(139 92 246);
+  border-style: double;
+  padding:8px;
+  text-align: center;
+}
