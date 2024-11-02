@@ -1,6 +1,8 @@
 import Link from "next/link";
 import Header from "./components/Header";
 import About from "./pages/about";
+import Contact from "./pages/contact";
+import Projects from "./pages/projects";
 import ParticlesComponent from "./components/Particles";
 
 export default function Home() {
@@ -25,6 +27,8 @@ export default function Home() {
       </div>
     
       <About/>
+      <Contact/>
+      
     
     </>
   );
