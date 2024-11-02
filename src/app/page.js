@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Header from "./components/Header";
+import About from "./pages/about";
 import ParticlesComponent from "./components/Particles";
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
         </main>
       </div>
       <h1 className="mt-4 relative bg-black">This is a test</h1>
+      <About/>
     
     </>
   );
