@@ -23,7 +23,7 @@ export default function Home() {
           </div>
         </main>
       </div>
-      <h1 className="mt-4 relative bg-black">This is a test</h1>
+    
       <About/>
     
     </>
