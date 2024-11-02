@@ -7,7 +7,7 @@ export default function Contact() {
     <form className="text-center">
         <input placeholder="Name"/> <br/>
         <input placeholder="Email"/> <br/>
-        <textarea placeholder="Message"/>
+        <textarea placeholder="Message"/> <br/>
         <button>Sumit</button>
     </form>
 

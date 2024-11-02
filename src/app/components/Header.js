@@ -11,13 +11,13 @@ export default function Header() {
             <Link href="/">Home</Link>
             </div>
             <div>
-            <Link href="">About</Link>
+            <Link href="#about">About</Link>
             </div>
             <div>
-            <Link href="/">Projects</Link>
+            <Link href="#projects">Projects</Link>
             </div>
             <div>
-            <Link href="/">Contact</Link>
+            <Link href="#contact">Contact</Link>
             </div>
         </nav>
       </header>

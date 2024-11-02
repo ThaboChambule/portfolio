@@ -25,10 +25,16 @@ export default function Home() {
           </div>
         </main>
       </div>
-    
+    <section id="about">
       <About/>
-      <Contact/>
+      </section>
+      <section id="projects">
       
+      </section>
+
+      <section id="contact">
+      <Contact/>
+      </section>
     
     </>
   );
