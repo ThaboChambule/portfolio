@@ -28,4 +28,5 @@ img{
   border-style: double;
   padding:8px;
   text-align: center;
+  border-radius: 15px;
 }

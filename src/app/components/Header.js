@@ -2,11 +2,12 @@ import Link from "next/link"
 
 export default function Header() {
     return (
-      <header>
-        <div className="text-4xl font-semibold">
-          <Link href="/">Thabo<span className="text-violet-500">.</span></Link>
+      <header className="flex justify-between">
+        <div className="text-5xl font-semibold ml-10 mt-5">
+          <Link  href="/">Thabo<span className="text-violet-500">.</span></Link>
         </div>
-        <nav className="flex justify-end gap-5 mr-6 text-xl">
+        <div>
+        <nav className=" flex gap-5 mr-10 mt-11 text-2xl">
             <div>
             <Link href="/">Home</Link>
             </div>
@@ -20,6 +21,7 @@ export default function Header() {
             <Link href="#contact">Contact</Link>
             </div>
         </nav>
+        </div>
       </header>
     );
   }

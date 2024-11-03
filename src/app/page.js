@@ -4,6 +4,7 @@ import About from "./pages/about";
 import Contact from "./pages/contact";
 import Projects from "./pages/projects";
 import ParticlesComponent from "./components/Particles";
+import { Span } from "next/dist/trace";
 
 export default function Home() {
   return (
@@ -13,13 +14,15 @@ export default function Home() {
           <ParticlesComponent className="absolute inset-0 z-0" />
           <div className="relative z-10">
             <Header />
-            <div className="justify-self-center text-5xl py-80">
-              <h1>
+            <div className="justify-self-center text-6xl py-80 space-y-4">
+              <div>
+              <h1 className="text-center">
                 Hello, I'm <span className="text-violet-500">Thabo</span>.
               </h1>
               <h1>I'm a full stack web developer</h1>
-              <div>
-                <Link href="/">View my work</Link>
+              </div>
+              <div className="w-96 p-1 border-2 border-violet-500 text-4xl text-center justify-self-center text-violet-500">
+                <Link href="#about">View my work&#8595;</Link>
               </div>
             </div>
           </div>
