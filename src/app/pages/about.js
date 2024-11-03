@@ -4,21 +4,21 @@ export default function About() {
   return (
     <div className="bg-black relative">
       <h1 className="text-8xl text-center">About</h1>
-      <div className="flex justify-between">
-        <div>
+      <div className="flex space-x-72">
+        <div className="ml-36 text-xl">
           <p>
             <img className="w-60" src="/images/portrait.jpg" />
           </p>
-          <div>
+          <div className="space-y-2">
             <p>
               I'm a full stack web developer and data science student based in
               South Africa. <br />I specialize in building web applications
-              using React, Node.js and Next.js, with a keen <br /> eye for
+              using React, Node.js and Next.js, with<br /> a keen  eye for
               modern designs using Tailwind CSS.
             </p>
             <p>
               When i'm not coding, you find me playing chess, exploring the
-              latest tech trends, or enjoying a good book
+              latest tech trends,<br /> or enjoying a good book
             </p>
             <p>Check out my work and feel free to get in touch!</p>
           </div>
