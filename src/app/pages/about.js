@@ -91,6 +91,12 @@ export default function About() {
               </p>
               <h2>SQL</h2>
             </div>
+            <div>
+              <p>
+                <img src="/images/linux.png" />
+              </p>
+              <h2>LINUX</h2>
+            </div>
           </div>
         </div>
       </div>
