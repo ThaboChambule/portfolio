@@ -24,7 +24,7 @@ export default function About() {
           </div>
         </div>
         <div>
-          <div class="stack grid grid-rows-4 grid-flow-col gap-4">
+          <div className="stack grid grid-rows-4 grid-flow-col gap-4">
             <div>
               <p>
                 <img src="/images/html.png" />

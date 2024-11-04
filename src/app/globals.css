@@ -19,7 +19,7 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
-img{
+.stack img{
   width:80px;
 }
 .stack div{
@@ -30,6 +30,19 @@ img{
   text-align: center;
   border-radius: 15px;
 }
+.stack2 div{
+  border: 2px;
+  border-color: rgb(139 92 246);
+  border-style: double;
+  padding:8px;
+  text-align: center;
+  border-radius: 15px;
+}
+.stack2 img{
+  width:80px;
+}
+
+
 @keyframes typing {
   from { width: 0; }
   to { width: 100%; }

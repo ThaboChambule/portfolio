@@ -4,6 +4,7 @@ import About from "./pages/about";
 import Contact from "./pages/contact";
 import Projects from "./pages/projects";
 import Certificate from "./pages/certificates";
+import Footer from "./components/Footer";
 import ParticlesComponent from "./components/Particles";
 
 export default function Home() {
@@ -40,6 +41,8 @@ export default function Home() {
       <section id="contact">
         <Contact />
       </section>
+      <Footer />
+      
     </>
   );
 }
