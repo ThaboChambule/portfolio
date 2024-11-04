@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import About from "./pages/about";
 import Contact from "./pages/contact";
 import Projects from "./pages/projects";
+import Certificate from "./pages/certificates";
 import ParticlesComponent from "./components/Particles";
 
 export default function Home() {
@@ -30,8 +31,12 @@ export default function Home() {
       <section id="about">
         <About />
       </section>
-      <section id="projects"></section>
-
+      <section>
+        <Certificate/>
+      </section>
+      <section id="projects">
+        <Projects/>
+      </section>
       <section id="contact">
         <Contact />
       </section>

@@ -10,7 +10,6 @@ export default function Contact() {
         <textarea className="w-96 bg-slate-800" placeholder="Message"/> <br/>
         <button className="border-double border-2 w-32 border-violet-600 text-lg">Submit</button>
     </form>
-
     </div>
    
   );
