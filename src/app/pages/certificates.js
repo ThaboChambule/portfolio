@@ -1,12 +1,14 @@
+import Image from "next/image"
+
 export default function Certificate(){
  return(
     <div>
         <h1 className="text-8xl text-center">Certificates</h1>
-    <div className=" flex stack2 grid-rows-4 grid-flow-col gap-x-40 justify-self-center">
+    <div className="stack2 flex gap-5">
      <div>
-        <p>image</p>
-        <p>course name</p>
-        <p>Accredited By:  </p>
+        <p><img src="/images/CertificateOfCompletion_AI.jpg" alt="certificate image" /></p>
+        <p>AI Productivity</p>
+        <p>Accredited By:SHRM & LinkedIn</p>
      </div>
      <div>
         <p>image</p>
@@ -23,6 +25,8 @@ export default function Certificate(){
         <p>course name</p>
         <p>Accredited By:  </p>
      </div>
+    
+
 
     </div>
     
