@@ -7,7 +7,9 @@ export default function About() {
         <h1 className="text-4xl md:text-6xl lg:text-8xl text-center mb-12">About</h1>
         <div className="flex flex-col lg:flex-row items-center lg:space-x-20">
           <div className="mb-10 lg:mb-0 lg:w-1/2">
-            <Image className="w-60 mx-auto lg:mx-0 rounded-full" src="/images/portrait.jpg" alt="Portrait of Thabo" width={240} height={240} />
+            <div className="circle">
+              <Image className="w-60 mx-auto lg:mx-0 rounded-full" src="/images/portrait.jpg" alt="Portrait of Thabo" width={240} height={240} />
+            </div>
             <div className="mt-6 text-lg space-y-4">
               <p>
                 I'm a full stack web developer and data science student based in South Africa. I specialize in building web applications using React, Node.js, and Next.js, with a keen eye for modern designs using Tailwind CSS.
@@ -33,7 +35,7 @@ export default function About() {
               </div>
               <div className="text-center">
                 <Image src="/images/java-script.png" alt="JavaScript" width={60} height={60} />
-                <h2 className="mt-2">JavaScript</h2>
+                <h2 class="mt-2">JavaScript</h2>
               </div>
               <div className="text-center">
                 <Image src="/images/c-sharp.png" alt="C#" width={60} height={60} />
