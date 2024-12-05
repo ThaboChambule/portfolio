@@ -2,104 +2,77 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <div className="bg-black relative">
-      <h1 className="text-8xl text-center">About</h1>
-      <div className="flex space-x-72">
-        <div className="ml-36 text-xl">
-          <p>
-            <img className="w-60" src="/images/portrait.jpg" />
-          </p>
-          <div className="space-y-2">
-            <p>
-              I'm a full stack web developer and data science student based in
-              South Africa. <br />I specialize in building web applications
-              using React, Node.js and Next.js, with<br /> a keen  eye for
-              modern designs using Tailwind CSS.
-            </p>
-            <p>
-              When i'm not coding, you find me playing chess, exploring the
-              latest tech trends,<br /> or enjoying a good book
-            </p>
-            <p>Check out my work and feel free to get in touch!</p>
+    <section id="about" className="bg-black text-white py-20">
+      <div className="container mx-auto px-6">
+        <h1 className="text-4xl md:text-6xl lg:text-8xl text-center mb-12">About</h1>
+        <div className="flex flex-col lg:flex-row items-center lg:space-x-20">
+          <div className="mb-10 lg:mb-0 lg:w-1/2">
+            <Image className="w-60 mx-auto lg:mx-0" src="/images/portrait.jpg" alt="Portrait of Thabo" width={240} height={240} />
+            <div className="mt-6 text-lg space-y-4">
+              <p>
+                I'm a full stack web developer and data science student based in South Africa. I specialize in building web applications using React, Node.js, and Next.js, with a keen eye for modern designs using Tailwind CSS.
+              </p>
+              <p>
+                When I'm not coding, you can find me playing chess, exploring the latest tech trends, or enjoying a good book.
+              </p>
+              <p>Check out my work and feel free to get in touch!</p>
+            </div>
           </div>
-        </div>
-        <div>
-          <div className="stack grid grid-rows-4 grid-flow-col gap-4">
-            <div>
-              <p>
-                <img src="/images/html.png" />
-              </p>
-              <h2>HTML</h2>
-            </div>
-            <div>
-              <p>
-                <img src="/images/css-3.png" />
-              </p>
-              <h2>CSS</h2>
-            </div>
-            <div>
-              <p>
-                <img src="/images/java-script.png" />
-              </p>
-              <h2>JAVASCRIPT</h2>
-            </div>
-            <div>
-              <p>
-                <img src="/images/c-sharp.png" />
-              </p>
-              <h2>C#</h2>
-            </div>
-            <div>
-              <p>
-                <img src="/images/react.png" />
-              </p>
-              <h2>REACT</h2>
-            </div>
-            <div>
-              <p>
-                <img src="/images/git.png" />
-              </p>
-              <h2>GIT</h2>
-            </div>
-            <div>
-              <p>
-                <img src="/images/Tailwind_CSS_Logo.svg.png" />
-              </p>
-              <h2>TAILWIND</h2>
-            </div>
-            <div>
-              <p>
-                <img src="/images/node.png" />
-              </p>
-              <h2>NODE.JS</h2>
-            </div>
-            <div>
-              <p>
-                <img src="/images/next-js-logo.png" />
-              </p>
-              <h2>NEXT.JS</h2>
-            </div>
-            <div>
-              <p>
-                <img src="/images/expressjs_logo.png" />
-              </p>
-              <h2>EXPRESS.JS</h2>
-            </div>
-            <div>
-              <p>
-                <img src="/images/sql.png" />
-              </p>
-              <h2>SQL</h2>
-            </div>
-            <div>
-              <p>
-                <img src="/images/linux.png" />
-              </p>
-              <h2>LINUX</h2>
+          <div className="lg:w-1/2">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+              <div className="text-center">
+                <Image src="/images/html.png" alt="HTML" width={60} height={60} />
+                <h2 className="mt-2">HTML</h2>
+              </div>
+              <div className="text-center">
+                <Image src="/images/css-3.png" alt="CSS" width={60} height={60} />
+                <h2 className="mt-2">CSS</h2>
+              </div>
+              <div className="text-center">
+                <Image src="/images/java-script.png" alt="JavaScript" width={60} height={60} />
+                <h2 className="mt-2">JavaScript</h2>
+              </div>
+              <div className="text-center">
+                <Image src="/images/c-sharp.png" alt="C#" width={60} height={60} />
+                <h2 className="mt-2">C#</h2>
+              </div>
+              <div className="text-center">
+                <Image src="/images/react.png" alt="React" width={60} height={60} />
+                <h2 className="mt-2">React</h2>
+              </div>
+              <div className="text-center">
+                <Image src="/images/git.png" alt="Git" width={60} height={60} />
+                <h2 className="mt-2">Git</h2>
+              </div>
+              <div className="text-center">
+                <Image src="/images/Tailwind_CSS_Logo.svg.png" alt="Tailwind CSS" width={60} height={60} />
+                <h2 className="mt-2">Tailwind CSS</h2>
+              </div>
+              <div className="text-center">
+                <Image src="/images/node.png" alt="Node.js" width={60} height={60} />
+                <h2 className="mt-2">Node.js</h2>
+              </div>
+              <div className="text-center">
+                <Image src="/images/next-js-logo.png" alt="Next.js" width={60} height={60} />
+                <h2 className="mt-2">Next.js</h2>
+              </div>
+              <div className="text-center">
+                <Image src="/images/expressjs_logo.png" alt="Express.js" width={60} height={60} />
+                <h2 className="mt-2">Express.js</h2>
+              </div>
+              <div className="text-center">
+                <Image src="/images/sql.png" alt="SQL" width={60} height={60} />
+                <h2 className="mt-2">SQL</h2>
+              </div>
+              <div className="text-center">
+                <Image src="/images/linux.png" alt="Linux" width={60} height={60} />
+                <h2 className="mt-2">Linux</h2>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
+
