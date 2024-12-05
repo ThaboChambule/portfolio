@@ -15,6 +15,11 @@ export default function Footer() {
               <path d="M12 12.713l11.985-7.99A1 1 0 0 0 23 4H1a1 1 0 0 0-.985.723L12 12.713zM12 14.287L.015 6.297A1 1 0 0 0 0 7v10a1 1 0 0 0 1 1h22a1 1 0 0 0 1-1V7a1 1 0 0 0-.015-.703L12 14.287z" />
             </svg>
           </Link>
+          <Link href="https://www.linkedin.com/in/yourusername" className="hover:text-violet-500">
+            <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.25c-.97 0-1.75-.78-1.75-1.75s.78-1.75 1.75-1.75 1.75.78 1.75 1.75-.78 1.75-1.75 1.75zm13.5 11.25h-3v-5.5c0-1.38-.02-3.16-1.93-3.16-1.93 0-2.23 1.51-2.23 3.06v5.6h-3v-10h2.88v1.36h.04c.4-.75 1.38-1.54 2.84-1.54 3.04 0 3.6 2 3.6 4.58v5.6z" />
+            </svg>
+          </Link>
         </div>
         <p className="mb-4">Thabo Chambule &copy; 2024</p>
         <p className="text-sm">Built with Next.js and Tailwind CSS</p>
@@ -22,3 +27,4 @@ export default function Footer() {
     </footer>
   );
 }
+
