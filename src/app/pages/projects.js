@@ -13,7 +13,7 @@ export default function Projects() {
         <div className=" shadow-lg rounded-xl overflow-hidden transition-all duration-300 hover:shadow-xl">
           <div className="relative h-64 w-full">
             <Image 
-              src="/images/mgidla.png" 
+              src="/images/MgidlaWebsite.png" 
               alt="Mgidla High School Website" 
               layout="fill"
               objectFit="cover"
@@ -31,10 +31,10 @@ export default function Projects() {
             </p>
             
             <div className="flex space-x-4">
-              <Link href="https://mgidlasecondary.co.za" target="_blank" className="px-4 py-2 bg-violet-600 text-white rounded-md hover:bg-violet-700 transition-colors">
+              <Link href="https://mgidla-secondary-school-75re.vercel.app/" target="_blank" className="px-4 py-2 bg-violet-600 text-white rounded-md hover:bg-violet-700 transition-colors">
                 Live Website
               </Link>
-              <Link href="/projects/mgidla-school" className="px-4 py-2 border border-violet-600 text-violet-600 rounded-md hover:bg-violet-50 transition-colors">
+              <Link href="https://github.com/ThaboChambule/Mgidla-Secondary-School" className="px-4 py-2 border border-violet-600 text-violet-600 rounded-md hover:bg-violet-50 transition-colors">
                 Project Details
               </Link>
             </div>
@@ -53,7 +53,7 @@ export default function Projects() {
           </div>
         </div>
 
-        {/* X-Clone Project */}
+        {/* X-Clone Project 
         <div className="bg-white shadow-lg rounded-xl overflow-hidden transition-all duration-300 hover:shadow-xl">
           <div className="relative h-64 w-full">
             <Image 
@@ -97,7 +97,7 @@ export default function Projects() {
           </div>
         </div>
 
-        {/* Blog Project */}
+        {/* Blog Project
         <div className="bg-white shadow-lg rounded-xl overflow-hidden transition-all duration-300 hover:shadow-xl">
           <div className="relative h-64 w-full">
             <Image 
@@ -136,10 +136,10 @@ export default function Projects() {
               </span>
               <span className="bg-violet-100 text-violet-800 px-2 py-1 rounded-full text-xs">
                 Markdown
-              </span>
+              </span> 
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   )
