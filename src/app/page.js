@@ -18,9 +18,9 @@ export default function Home() {
             <div className="space-y-4">
               <div className="typewriter">
                 <h1 className="text-4xl md:text-6xl lg:text-8xl">
-                  Hello, I'm <span className="text-violet-500">Thabo</span>.
+                  Hello,I'm <span className="text-violet-500">Thabo</span>.
                 </h1>
-                <h1 className="text-2xl md:text-4xl lg:text-6xl">I'm a full stack web developer</h1>
+                <h1 className="text-2xl md:text-4xl lg:text-6xl">I'm a full-stack developer</h1>
               </div>
               <div className="flex justify-center">
                 <Link href="#about" legacyBehavior>
@@ -51,6 +51,7 @@ export default function Home() {
       <footer className="py-10">
         <Footer />
       </footer>
+      
     </>
   );
 }
